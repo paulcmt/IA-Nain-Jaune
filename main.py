@@ -29,8 +29,8 @@ def lancement_jeu(nb_iterations, initialisation=False, affichage=True, ameliorat
 
     # Demande des infos + récupération
     # parametres_de_la_partie = parametres_partie()
-    nb_de_joueurs_voulu = 3  # parametres_de_la_partie[0]
-    argent_de_depart_voulu = 120  # parametres_de_la_partie[1]
+    nb_de_joueurs_voulu = parametres_de_la_partie[0]
+    argent_de_depart_voulu = parametres_de_la_partie[1]
 
     # Mode de jeu des différents joueurs
     # 0 : mode manuel
@@ -51,6 +51,7 @@ def lancement_jeu(nb_iterations, initialisation=False, affichage=True, ameliorat
             argent_de_depart_voulu=argent_de_depart_voulu, amelioration_continue=amelioration_continue,
             augmentation_data_bank=augmentation_data_bank))
 
+        # Effacement de la console
         system("cls")
 
         # Affichage de l'avancé
