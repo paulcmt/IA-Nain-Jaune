@@ -12,7 +12,7 @@ Les modifications prévues sont :
 ## Installation & utilisation
 Les étapes pour éxécuter le projet :
 - Télécharger le code dans sa totalité
-- Ouvrir le fichier ``main.py` dans un éditeur de texte
+- Ouvrir le fichier ``main.py`` dans un éditeur de texte
 - Modifier les différents paramètres de la fonction ``lancement_jeu`` (paramètres détaillés plus loin)
 
 ### Paramètres
