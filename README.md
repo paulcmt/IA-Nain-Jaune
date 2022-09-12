@@ -31,7 +31,7 @@ Pour plus d'options, il faudra modifier le code de la fonction ``lancement_jeu``
 Il est aussi possible de mettre un # devant certaines lignes pour ne pas les éxécuter (mise en commentaire). _Exemple_ : si vous ne voulez pas un affichage concernant l'avancé des itérations lancées, il suffit de mettre en commentaire les lignes 55 à 58 incluses.
 
 ## Principe de fonctionnement
-Le projet est basé sur un fonctionnement similaire au CFR (Counter Factual Regret) de [Poker][poker.fr].
+Le projet est basé sur un fonctionnement similaire au CFR (Counter Factual Regret) de [Poker][https://github.com/iciamyplant/Poker_CFR].
 Lors d'une manche, le joueur IA effectue une certaine combinaison de stratégie. A cette stratégie est associée un regret (l'argent gagné par cette stratégie). A la fin de cette manche, le programme va refaire la manche avec le même jeu mais en testant une stratégie différente et calcule aussi le regret associé.
 Toutes les stratégies sont stockées dans le fichier ``save_strategie`` et les regrets associés dans le fichier ``save_argent``. _Exemple_ : La ligne 58 de ``save_strategie`` contient la stratégie ``f0f5m6`` donc la ligne 58 de ``save_argent`` contient le regret de cette stratégie exactement.
 
