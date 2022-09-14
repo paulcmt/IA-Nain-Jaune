@@ -17,8 +17,8 @@ def initialisation_des_proba():
     # Initialisation du tableau des probabilités
     tableau_des_proba = []
 
-    # 35 itérations, car nombre de tours max sur 10 000 itérations était de 17
-    for i in range(20):
+    # 22 itérations, car nombre de tours max sur 10 000 itérations était de 17
+    for i in range(22):
 
         # Les probabilités initiales sont de 50% pour chaque stratégie
         tableau_des_proba.append([0.0, 0.0])
@@ -221,7 +221,7 @@ def rogner_proba():
         tableau_des_proba = mon_depickler.load()
 
     # On parcourt tout le tableau
-    for i in range(20):
+    for i in range(22):
 
         # On arrondit les probabilités du tour
         tableau_des_proba[i][0] = round(tableau_des_proba[i][0], 3)

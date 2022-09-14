@@ -28,7 +28,7 @@ def lancement_jeu(nb_iterations, initialisation=False, affichage=True, ameliorat
         initialisation_des_proba()
 
     # Demande des infos + récupération
-    # parametres_de_la_partie = parametres_partie()
+    parametres_de_la_partie = parametres_partie()
     nb_de_joueurs_voulu = parametres_de_la_partie[0]
     argent_de_depart_voulu = parametres_de_la_partie[1]
 
@@ -65,5 +65,4 @@ def lancement_jeu(nb_iterations, initialisation=False, affichage=True, ameliorat
 
 
 lancement_jeu(1, initialisation=False, affichage=False, amelioration_continue=False, augmentation_data_bank=False)
-rogner_proba()
 affichage_proba()

@@ -4,10 +4,7 @@ Intelligence artificielle estimant les probabilités au tour pour le jeu du Nain
 L'objectif prinicpal de ce programme est d'estimer les probabilités à partir d'une banque de données. Cette banque de données est construite par le programme au cours de son fonctionnement. Les commentaires inscrits dans la totalité du code aident à la compréhension de ce dernier, n'hésitez pas à vous y repporter.
 
 ## Statut du projet
-Le projet est toujours en cours de développement. La majorité du code a été écrit et commenté. Actuellement, le projet tourne sous une machine distante pour augmenter la banque de données.
-Les modifications prévues sont :
-- Une banque de données plus grande (200 000 regrets)
-- Une optimisation du code
+Le projet est fini. Tout le code a été écrit et commenté. La banque de données actuelle est de plus de 112 000 stratégies.
 
 ## Installation & utilisation
 Les étapes pour éxécuter le projet :
