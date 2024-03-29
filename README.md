@@ -1,4 +1,4 @@
-# IA_Nain_Jaune
+# IA Nain Jaune
 Intelligence artificielle estimant les probabilités au tour pour le jeu du Nain Jaune. 
 
 L'objectif prinicpal de ce programme est d'estimer les probabilités à partir d'une banque de données. Cette banque de données est construite par le programme au cours de son fonctionnement. Les commentaires inscrits dans la totalité du code aident à la compréhension de ce dernier, n'hésitez pas à vous y repporter.
